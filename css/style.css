@@ -1,0 +1,135 @@
+h1{
+	font-size:40px;
+}
+
+h2,h3,h4{
+	font-size:30px;
+}
+
+body{
+	font-size:25px;
+	background:#00bfff;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	margin:0;
+}
+
+.all{
+	width:100%;
+}
+
+.header{
+	font-size:30px;
+	text-align:left;
+	height:100%;
+	width:100%;
+	background-color:#C0C0C0 !important;
+	overflow:hidden !important;
+	padding: 20px 10px;
+	margin:0 auto;
+}
+
+.container{
+	padding-top:20px;
+	width:50%;
+}
+
+.temperature{
+	font-size: 100px;
+    width:100%;
+    padding-bottom:20px;
+}
+
+.main{
+	min-width:100px;
+	height:100%;
+	width:100%;
+}
+
+.icon{
+	height:100px;
+}
+
+.wi {
+  font-size: 2em;
+}
+
+.navbar{
+	font-size:20px;
+	float:right !important;
+	padding-right:50px;
+	margin-top:10px;
+}
+
+.navbar a{
+	padding:10px;
+	background: #00bfff !important;
+	border-radius:10px;
+	text-decoration: none !important;
+	color:inherit !important;
+}
+
+.navbar a:hover{
+	background: #000000 !important;
+	box-shadow:1.5px 1.5px grey;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+
+.navbar{
+	padding-top:5px;
+	margin-top:10px;
+}
+
+.header{
+	text-align:center;
+}
+
+.navbar a:hover{
+	background: #000000 !important;
+}
+
+
+.navbar{
+	padding:11px !important;
+	font-size:17px;
+	display:inline-grid;
+	grid-template-columns: 1fr 1fr;
+	text-align:center;
+}
+
+.navbar a{
+	margin-right:10px;
+}
+
+
+}
+
+
+@media only screen 
+and (min-device-width : 100px) 
+and (max-device-width : 360px) { 
+
+.temperature{
+	font-size:50px;
+}
+
+
+body, h1,h2,h3,h4{
+	font-size:25px;
+	padding: none !important;
+}
+.navbar {
+height:130px;
+}
+
+.navbar a{
+	display:inline-grid;
+	margin-bottom:5px;
+}
+
+}
+
